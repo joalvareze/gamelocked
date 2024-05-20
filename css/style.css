@@ -1,18 +1,39 @@
 body{
     background-image: linear-gradient(135deg
     ,rgb(46, 36, 138),
-    #a5c258, rgb(233, 22, 22), #161569,
-    #5A4894, #A950A1, #3bd30c);
+    #a5c258, rgb(153, 62, 62), rgb(228, 198, 31),
+    #5A4894, #A950A1, #4db6c9);
     background-size: 500%;
-    animation: fanimado 40s infinite;
+    animation: fanimado 50s infinite;
   }
 
-h4,img,h5{
+h1,h4,img,h5,#tbla1,#foro,#tabla,#signupForm{
   border-style: solid;
-  border-width: 2px;
-  border-color: blueviolet;
+  border-width: 3px;
+  border-color: rgb(7, 7, 7);
   border-radius: 12px;
 }
+
+#barra,#t_sesion{
+  background-color: rgb(57, 172, 172);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+
+#caja_carga{
+  background-color: rgba(49, 47, 47, 0.342);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-style: inherit;
+  font-weight: bold;
+}
+
+
 
 
 /* button {
@@ -27,7 +48,7 @@ h4,img,h5{
   border-radius: 12px;
 } */
 
-/* button:hover::before {
+/* button:hover::before,#a2 {
   content: "";
   position: absolute;
   top: 0;
@@ -106,10 +127,21 @@ h4,img,h5{
   margin-bottom: 20px; /* Espacio inferior entre casillas */
 }
 
-#imagenes{
+#imagenes,#carouselExampleFade{
   width: 204px;
   height: 295px;
-
-
-
 }
+
+
+
+/* #alicia2,li,b {
+  padding: 6px 4px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal
+} */
+
+
+
+
