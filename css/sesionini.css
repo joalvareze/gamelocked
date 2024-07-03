@@ -1,0 +1,34 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif; /* Aplicar la fuente importada */
+}
+.juego {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.juego h2 {
+    margin-top: 0;
+}
+.juego p {
+    margin-bottom: 5px;
+}
+.juego a {
+    text-decoration: none;
+    color: #3498db;
+}
+.juego a:hover {
+    text-decoration: underline;
+}

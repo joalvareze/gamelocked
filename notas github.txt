@@ -1,0 +1,4 @@
+git status
+git add(agregar todo l nuevo)
+git commit -m "escribir un mensaje "
+git push -u origin master

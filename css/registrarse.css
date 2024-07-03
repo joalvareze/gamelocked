@@ -13,22 +13,24 @@ body{
     #a5c258, rgb(153, 62, 62), rgb(228, 198, 31),
     #5A4894, #A950A1, #4db6c9);
     background-size: 500%;
-    animation: fanimado 50s infinite;
+    animation: fanimado 40s infinite;
     display: flex;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
+
+  
 
 
   .input_container{
     width: 600px;
-    background-color: rgb(102, 170, 170);
+    /* background-color: rgba(5, 5, 5, 0.418); */
     padding: 30px;
     border-radius: 15px;
     box-shadow:  0 0 25px #5A4894;
-    border: 10px solid;
+    border: 1px solid ;
   }
 
   .input_container .input-row{
@@ -45,8 +47,8 @@ body{
     height: 50px;
     line-height: 30px;
     font-size: 20px;
-    border-radius: 5px;
-    border: 2px solid transparent ;
+    border-radius: 1px;
+    border: 1px solid transparent ;
     outline: 0;
     transition: all 0.5s ease-out;
   }
@@ -83,12 +85,44 @@ color: #000;
 }
 
 .input_container input[type="submit"]:hover{
-    background-color: rgb(255, 0, 242);
+    background-color: rgb(255, 0, 234);
 }
 
 label.error{
-    font-weight: 700;
+    /* font-weight: 700;
     display: block;
     color: rgb(0, 0, 0);
-    font-size:14px ;
+    font-size:14px ; */
+
+    padding: 12px;
+    border: 1px solid #ffe9c0;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    background-color: #f2dede;
+    border: #eed3d7;
+    color: #b4403c;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.juego {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.juego h2 {
+  margin-top: 0;
+}
+.juego p {
+  margin-bottom: 0;
 }

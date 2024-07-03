@@ -1,28 +1,37 @@
 
 
 body {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     background-image: url(../gif/5927911.gif);
     background-size: cover;
     background-position: center;
     justify-content: space-around;
     min-height: 100vh;
+    ;
 
 }
 
 .modal-content{
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-color: rgb(116, 14, 140);
-    width: 300px; 
+    padding: 25px;
+    background-color: rgba(8, 8, 8, 0.767);
+    width: 290px; 
+}
+#parrafo{
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background-color: rgba(8, 8, 8, 0.767);
+    width: 290px;
+    height: 230px;
 }
 
 img {
-    margin: 20px auto; 
+    margin: 15px auto; 
     display: block; 
 }
 
@@ -49,11 +58,20 @@ input.form-control {
     width: 100%; 
 }
 
-h1,h4,img,h5,#tbla1,#foro,form{
+h1,h4,img,h5,#tbla1,#foro,form,#parrafo{
     border-style: solid;
-    border-width: 2px;
-    border-color: rgb(7, 7, 7);
-    border-radius: 15px;
+    border-width: 1px;
+    border-color: rgb(221, 204, 204);
+    border-radius: 10px;
+  }
+
+  #exampleInputEmail1,#exampleInputPassword1{
+    background-color: rgba(230, 236, 241, 0.767);
+
+  }
+
+  #botoncito_volver{
+    background-color: rgba(230, 236, 241, 0.767);
   }
 
 
